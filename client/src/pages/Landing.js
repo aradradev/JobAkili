@@ -1,7 +1,7 @@
-import main from '../assets/images/main.svg';
-import Wrapper from '../assets/wrappers/LandingPage';
-import { Logo } from '../components';
-import { Link } from 'react-router-dom';
+import main from '../assets/images/main.svg'
+import Wrapper from '../assets/wrappers/LandingPage'
+import { Logo } from '../components'
+import { Link } from 'react-router-dom'
 const Landing = () => {
   return (
     <Wrapper>
@@ -15,9 +15,9 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Crucifix narwhal street art asymmetrical, humblebrag tote bag pop-up
-            fixie raclette taxidermy craft beer. Brunch bitters synth, VHS
-            crucifix heirloom meggings bicycle rights.
+            JobAkili makes your job search process insightful and memorable. Track each step from application to
+            interview to final decision, and weave the narrative of your career journey with wisdom and clarity. Your
+            Job Search, Your Story of Wisdom.
           </p>
           <Link to='/register' className='btn btn-hero'>
             Login/Register
@@ -26,7 +26,7 @@ const Landing = () => {
         <img src={main} alt='job hunt' className='img main-img' />
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing
