@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3><b>JobAkili</b></h3>
-  <img src='images/TestLogo.svg' alt='logo' />
+  <img src='images/TestLogo.svg' alt='image logo' />
 </div>
 
 # 📗 Table of Contents
